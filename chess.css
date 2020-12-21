@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#chess-board {
+  border: 5px solid #333;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#chess-board td {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  font-size: xxx-large;
+}
+
+#A8 {
+  cursor: pointer;
+}
+
+tr:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even) {
+  background: cornsilk;
+}
+
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+  background:  #863403;
+}
